@@ -42,12 +42,12 @@ fn greetings_message() {
 
 fn menu_message() {
     let menu = r#"
-    1 = List all Tasks
-    2 = Add a new Task
-    3 = Retrieve task by id
-    4 = Update Task Text
-    5 = Remove Task
-    6 = Exit
+    1 >> List all Tasks
+    2 >> Add a new Task
+    3 >> Retrieve task by id
+    4 >> Update Task Text
+    5 >> Remove Task
+    6 >> Exit
     "#;
 
     println!("{}", menu);
